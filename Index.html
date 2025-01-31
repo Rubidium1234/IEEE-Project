@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Index.CSS">
+    
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <h1>My Personal Portfolio</h1>
+</header>
+
+<!-- Navigation Bar -->
+<center>
+<div class="nav-buttons">
+    <button class="nav-button active" data-section="profile">
+    <i data-lucide="user" style="margin-right: 0.5rem;"></i>
+    <a href="#about" aria-label="Profile">Profile</a>
+    </button>
+    <button class="nav-button" data-section="projects">
+    <i data-lucide="code" style="margin-right: 0.5rem;"></i>
+    <a href="#projects" aria-label="Projects">Projects</a>
+    </button>
+    <button class="nav-button" data-section="achievements">
+    <i data-lucide="trophy" style="margin-right: 0.5rem;"></i>
+    <a href="#future" aria-label="Future Planning">Upcoming...</a>
+    </button>
+    <button class="nav-button" data-section="contact">
+    <i data-lucide="mail" style="margin-right: 0.5rem;"></i>
+    <a href="#contact" aria-label="Contact">Contact</a>
+    </button>
+</div>
+
+</center>
+<!-- Main Content Section -->
+<main>
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <img src="Me.jpg" alt="A photo of Mohammed Abdul Qayyum" class="profile-img" width="300">
+        <p>
+            I am Mohammed Abdul Qayyum from Hyderabad, India, pursuing a Bachelor's Degree in Computer Science at Nawab Shah Alam Khan College of Engineering and Technology. I have completed my previous educational qualifications with an average GPA of 7 and aspire to achieve great accomplishments in the future.
+        </p>
+        <p>
+            My skills include communication, leadership, and content creation, including photography, editing, and related work.
+        </p>
+        <p>
+            Hobbies: Understanding different perspectives, artistic calligraphy (mainly Arabic and Urdu), and football.
+        </p>
+        <p>
+            Interest: Exploring why businesses can be more rewarding than jobs.
+        </p>
+        
+    </section>
+  <!-- Project Section -->
+    <section id="projects">
+        <h3>My Projects</h3>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Java</li>
+            <li>Python and C</li>
+            <li>CCNA</li>
+            <li>Windows and Linux Administration</li>
+            <li>Networking and Administration</li>
+        </ul>
+    </section>
+<!-- Upcoming Plans Section -->
+    <section id="future">
+        <h3>My Future Courses</h3>
+        <ul>
+            <li>UI/UX Design</li>
+            <li>Web Development</li>
+            <li>Front-end Development</li>
+            <li>SAP</li>
+        </ul>
+    </section>
+<!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form class="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+            <label for="message">Your Interest</label>
+            <textarea id="message" name="message" placeholder="Reason for Contact" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+<!-- Footer Section -->
+<footer>
+    <hr>
+    <p>Thank you for visiting!</p>
+    <p>&copy; 2025 Mohammed Abdul Qayyum. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
